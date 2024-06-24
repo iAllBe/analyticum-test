@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 16px;
+}
+
 #app {
   min-width: 768px;
 }
@@ -45,6 +49,7 @@ input {
   &:hover {
     color: rgb(59, 116, 59);
     background-color: white;
+    cursor: pointer;
   }
 }
 </style>
